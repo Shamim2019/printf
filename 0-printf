@@ -1,11 +1,11 @@
 #include <stdio.h>
+##include <stdarg.h>
+#include <stdlib.h>
+#include <stddef.h>
 #include "main.h"
 
 /**
  *printf - produces output according to the specifier
- *@c: produces a character output
- *@s: produces a string character
- *@%: modulo (format specifier)
  *@format: string with format specifier
  *Return: number of character printed
 */
